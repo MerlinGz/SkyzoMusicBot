@@ -43,6 +43,26 @@
 <h2 align="center">
    Requirements
 </h2>
+<p align="con: 
+  issues: Error pyogram seasson string "blocked issue" 
+    types: [opened]
+  pull_request_target:
+    types: [edited]
+    
+jobs: 
+  blocking_issues: 
+    runs-on: ubuntu-latest
+    name: Checks for blocking issues
+    
+    steps: 
+      - uses: Levi-Lesches/blocking-issues@v2
+        with: 
+          # Optional: Choose an existing label to use instead of creating a new one.
+          # If the label cannot be found, the default one will be created and used.
+          # The default is: "blocked" (black).
+          use-label: "blocked issue"enter">
+    
+
 
 <p align="center">
     <a href="https://www.python.org/downloads/release/python-390/"> Python3.9 </a> |
